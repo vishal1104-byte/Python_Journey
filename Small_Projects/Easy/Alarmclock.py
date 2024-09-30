@@ -21,5 +21,5 @@ def alarm(seconds):
 
     playsound("alarm.mp3")
 
-minutes = int(input("ENter the minutes or second you want to set your alarm"))
+minutes = int(input("Enter the minutes or second you want to set your alarm"))
 alarm(minutes)
