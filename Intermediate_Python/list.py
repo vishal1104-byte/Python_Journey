@@ -10,7 +10,7 @@ List items are indexed, the first item has index [0], the second item has index 
 # list[0] = "Sahil"                    # We can change the list Item in the existing list but we cant do this in strings This is the biggest difference between strings and list 
 # print(list)
 
-# list = ["chai","cofee","blacktea","greentea"]
+list = ["chai","cofee","blacktea","greentea"]
 # print(list)                                               # This is  the basic list 
 # print(len(list))                    # This is the length function we use this to know the length of a list 
 
@@ -28,6 +28,7 @@ List items are indexed, the first item has index [0], the second item has index 
 # print(list[1:3])
 # print(list[-1])
 # print(list[-4:-1])
+# print(list[::-1])
 
 # if "chai" in list:
 #     print("Yes it is in the list")              # Checking if item is in the list 

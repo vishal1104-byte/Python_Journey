@@ -6,7 +6,7 @@ Tuple items are ordered, unchangeable, and allow duplicate values.
 '''
 
 # tuple = ("Vishal","Sahil","Batuk","Patel")
-# print(tuple)                            # This is  the basic list 
+# print(tuple)                            # This is  the basic Tuple 
 # print(len(tuple))                    # This is the length function we use this to know the length of a tuple 
 
 # tuple2 = (1,2,3,4,5)
