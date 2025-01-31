@@ -17,10 +17,10 @@ print("the" in x)                    # It will give output as False bcz it is no
 '''
 
 #                                                 String Slicing
-
+# String indexing - accessing the elements of a sequence using [] 
 '''
 A String in python can be sliced for getting a part of the string .
-The index in a string starts from 0 to (length -1) in python. In order to slice a string we use the following syntax 
+The index in a string starts from 0 to (length -1) in python. In order to slice a string we use the following syntax [start : end : step]
 '''
 
 '''
@@ -47,6 +47,7 @@ print(str[1:8:2])       # It is the slicing with skip value
 4. string.capitalize()  --> This function capitalize the first character of a given string 
 5. string.find(word)  --> This function finds a word and returns the index of first occurence of that word in the string 
 6. string.replace(newword,oldword)  --> This function replaces the oldword with newwords in the entire string 
+7. str.isdigit  -- > Give the boolean valur of True or false 
 '''
 # print(len(str))
 # print(str.endswith("art"))
@@ -54,6 +55,7 @@ print(str[1:8:2])       # It is the slicing with skip value
 # print(str.capitalize())
 # print(str.find("vishal"))
 # print(str.replace("Vishal","Sahil"))
+
 
 
 #                                     Escape Sequence Character  --> Sequence of character after backslash \
@@ -69,7 +71,23 @@ print(str[1:8:2])       # It is the slicing with skip value
 
 #                                      Advance String Formating 
 
-person = { "name":"Vishal","age":21}
+# person = { "name":"Vishal","age":21}
 
-sentence = "My name is {0} and I am {1} years Old".format(person["name"],person["age"])   # This format function is used to format the string in Dictionaries 
-print(sentence)
+# sentence = "My name is {0} and I am {1} years Old".format(person["name"],person["age"])   # This format function is used to format the string in Dictionaries 
+# print(sentence)
+
+
+
+# Exercises 
+
+#1. Validate user Input   |  Username not more than 12 char | username must not contain spaces | Must not contain digit 
+
+# userName = input("Enter Your User Name: ")
+# if len(userName) > 12 or userName.find(" ") or userName.isdigit:
+#     print("Invalid User Name ")
+# else:
+#     print("Okay You are Valid You can use this User Name ")
+
+
+str = "Hey this is Denial I am calling you from the national do not call list department SO what we do we try to find your place"
+print(str[-4:])

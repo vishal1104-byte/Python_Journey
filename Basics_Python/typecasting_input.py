@@ -25,3 +25,20 @@ But if you want to take number as a input so do this
 a = int(input("Enter the Number ))
 '''
 
+# Exercise : 
+
+# Calculate the area of Rectangle 
+
+# length = int(input("Enter the Length of the Rectangle: "))
+# width = int(input("Enter the Width of the Rectangle: "))
+# area = length * width
+# print("The area of the Rectangle is ",area)
+
+#2. Shopping cart Program 
+item = input("What item would you like to Buy ? : ")
+price = float(input("Enter the Price ? : "))
+quantity = int(input("How many would you like to Buy ? :"))
+
+total = price * quantity
+
+print(f"The Total amount You have to pay for {item} is {total}")

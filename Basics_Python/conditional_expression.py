@@ -54,10 +54,30 @@ Important Notes :
 #     print("we will go for it then ")
 
 
-age = int(input("Enter Your age to confirm whether you are eligible to vote or not "))
-if age >= 18:
-    print("Yes You can Vote")
-elif age < 18 :
-    print("Sorry you are not eligible to vote ")
-else:
-    print("You have to check ")
+# age = int(input("Enter Your age to confirm whether you are eligible to vote or not "))
+# if age >= 18:
+#     print("Yes You can Vote")
+# elif age < 18 :
+#     print("Sorry you are not eligible to vote ")
+# else:
+#     print("You have to check ")
+
+
+
+
+# Conditional Expressions : A one line shortcut for the if else statements ( Ternary Operator )  ---> Print or assign  on or Two values based on a condition 
+# X if condition else Y
+
+#Examples
+# 1. Whether the Number is positive or negative 
+num = 6
+print("Positive" if num>0 else "Negative")
+
+#2. Whether the Number is Even or Odd
+result = ("Even" if num%2 == 0 else "Odd")
+print(result)
+
+#3. Whether You can vote or not 
+age = 18
+result = ("You can Vote" if age>=18 else "You cant Vote")
+print(result)

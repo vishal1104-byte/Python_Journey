@@ -47,6 +47,7 @@ While Loops ---> A while loop is used to execute a block of statements repeatede
 
 
 '''
+For Loops is used to execute a block of code for a fixed number of time 
 For Loops is used for definite Times!
 For Loops --->  The for loop in python is indeed used to iterate over sequences such as lists,tuples,strings,dictionaries and ranges . It allows you to execute a block of code for each item in the sequences 
 '''
@@ -65,6 +66,31 @@ For Loops --->  The for loop in python is indeed used to iterate over sequences 
 #         print("The Number is Even",z)         
 #     else:
 #         print("The Number is Odd",z)                  # conditions in for loops 
+
+
+'''
+Nested Loops --> A loop within another loop (outer or inner )
+outer loop : Outside the loop 
+inner loop : Inside the Loop 
+'''
+
+# for x in range(3):
+#     for y in range(1,11):     
+#         print(y,end=" ")                # This is inner loop 
+#     print()                             # This is outer loop 
+
+
+# for i in range(3):
+#     for j in range(5):
+#         print("*",end="")
+        
+#     print()
+
+# Creating the pattern of 1 star than 2 star than as follow
+# rows = 6
+# for i in range(1,rows+1):
+#     print("*" * i)
+    
 
 # Write a Multiplication table of the number which is given by the user 
 # num = int(input("Enter the Number to get the table of that number "))
@@ -201,3 +227,41 @@ For Loops --->  The for loop in python is indeed used to iterate over sequences 
 #     wait_time *= 2
 #     attempts += 1
 # print("Happy Birthday Vishal")
+
+
+# Exercises 
+#1. Take name as input
+# name = input('Enter Your name: ')
+# while name == "":
+#     print("You didnt written Anything")
+#     name = input("Enter Your name: ")
+# print(f"Hello {name}")
+
+#2. check age 
+# age = int(input("Enter Your age that are you able to do or nto : "))
+
+# while age < 18:
+#     print("You are not able to do this You are small")
+#     age = int(input("Enter Your age that are you able to do or not : "))
+
+# print("Yess Now You can Do ")
+
+#3. check food
+# food = input("Enter the Nasta You like more and press q to quit: ")
+
+# while not food == "q" :
+#     print(f"You Like {food}")
+#     food = input('Enter another Nashta Name You like and write q to quit: ')
+# print("Bye")
+
+# 4. WHile a Number is between 1 to 10 
+# num = int(input("Enter the Number between 1 - 10: "))
+# while num < 1 or num > 10 :
+#     print("You Entered Invalid NUmber ")
+#     num = int(input("Enter the Valid Number: "))
+# print(f"Okay Finally You entered a Valid Number {num}")
+
+
+
+    
+

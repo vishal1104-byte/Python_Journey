@@ -61,3 +61,28 @@
 # print(math.sqrt(8))            # This function will give you the square root of the Number
 # print(math.ceil(3.14))         # This will give you the last number of the point like 4
 # print(math.floor(3.14))        # This will give you the least number of the point like 3
+
+
+# Exercise 
+#1 calculate the circumference of a circle 
+
+# import math
+# radius = float(input("Enter the radius of a circle: "))
+# circumference = 2 * math.pi * radius
+# print(f"The circumference of a circle is {round(circumference , 2)}")
+
+#2 calculate the area of a circle 
+
+# import math 
+# radius = float(input("Enter the radius of a circle: "))
+# area = math.pi * pow(radius,2)
+# print(f"The area of a circle is {round(area)}")
+
+#3 calculate the Hypothenus of a triangle 
+
+import math
+side1 = float(input("Enter the One Side"))
+side2 = float(input("Enter the Second Side"))
+
+hypo = math.sqrt(pow(side1,2) + pow(side2,2))
+print(f"The Hypothenus of the square is {round(hypo,2)}cm 😂")    # To add emoji press wind + .
