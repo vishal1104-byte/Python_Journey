@@ -2,22 +2,34 @@
 # what is expression 
 # A exxpression is the combination of operators and values 
 
-import random
+# import random
 
-secret_num = random.randint(1,10)
+# secret_num = random.randint(1,10)
 
-print("I want to see that You can choose the correct Number or not ")
+# print("I want to see that You can choose the correct Number or not ")
 
-for guess in range(1,7):
-    guess = int(input('Enter Your Guess: '))
-    if guess > secret_num :
-        print("You are High")
-    elif guess < secret_num:
-        print("You are Low")
-    else:
-        break
+# for guess in range(1,7):
+#     guess = int(input('Enter Your Guess: '))
+#     if guess > secret_num :
+#         print("You are High")
+#     elif guess < secret_num:
+#         print("You are Low")
+#     else:
+#         break
 
-if guess == secret_num:
-    print("Correct Guess")
-else:
-    print("No not right")
+# if guess == secret_num:
+#     print("Correct Guess")
+# else:
+#     print("No not right")
+
+
+def spam():
+    eggs = 99
+    bacon()
+    print(eggs)
+
+def bacon():
+    ham = 101
+    eggs = 0
+
+spam()
