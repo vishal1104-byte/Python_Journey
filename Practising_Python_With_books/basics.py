@@ -23,13 +23,28 @@
 #     print("No not right")
 
 
-def spam():
-    eggs = 99
-    bacon()
-    print(eggs)
 
-def bacon():
-    ham = 101
-    eggs = 0
 
-spam()
+# Write a recursive function to find the factorial of a given number.
+# def factorial(n):
+#     result = 1
+#     for i in range(1, n + 1):
+#         result *= i
+#     return result
+# n = int(input('Enter the Number to get the factorial of that number'))
+# result = factorial(n)
+# print(result)
+
+# Write a function that checks whether a given string is a palindrome (same forwards and backwards).
+# def is_palindrome(S):
+#     S = S.lower().replace(" ","")
+#     return S == S[::-1]
+# string = input("Enter Something: ")
+# if is_palindrome(string):
+#     print("This is a palindrome")
+# else:
+#     print("This is not a palindrome")
+
+# Write a function that returns the first N Fibonacci numbers.
+
+
