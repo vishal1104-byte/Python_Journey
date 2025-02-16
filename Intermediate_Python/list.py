@@ -10,7 +10,7 @@ List items are indexed, the first item has index [0], the second item has index 
 # list[0] = "Sahil"                    # We can change the list Item in the existing list but we cant do this in strings This is the biggest difference between strings and list 
 # print(list)
 
-list = ["chai","cofee","blacktea","greentea"]
+# list = ["chai","cofee","blacktea","greentea"]
 # print(list)                                               # This is  the basic list 
 # print(len(list))                    # This is the length function we use this to know the length of a list 
 
@@ -99,3 +99,17 @@ list = ["chai","cofee","blacktea","greentea"]
 # print(list)
 # list.remove(2)                         # This method is used to remove the item by giving the name of that item
 # print(list)
+
+
+
+cat_names = []
+while True:
+    
+    name = input("Enter the cat Name: ")
+    if name == "":
+        break
+
+    cat_names = cat_names + [name]
+
+for name in cat_names:
+    print(" " + name)
